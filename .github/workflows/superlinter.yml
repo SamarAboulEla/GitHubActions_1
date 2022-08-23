@@ -3,10 +3,9 @@ name: Super-Linter-Workflow
 on: push
 
 jobs:
-  super-lint
+  super-lint:
   name: Lint code base
   runs-on: ubuntu-latest
-  
   steps:
   - name: Checkout the code
     uses: actions/checkout@v2
